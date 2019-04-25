@@ -16,7 +16,8 @@ public class Main
 	       else 
 	       continue;
 	    }
-	   
-	    System.out.print(s1);
+	    char []ch2=s1.toCharArray();
+	    for(i=ch2.length-1;i>=0;i--)
+	    System.out.print(ch2[i]);
 	}
 }
